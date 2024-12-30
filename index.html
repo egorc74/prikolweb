@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Check</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        /* Hide the hidden section initially */
+        #hidden-section {
+            display: block;
+        }
+        #vpr0{
+            display: none;
+
+        }
+        #vpr1{
+            display: none;
+        }
+        
+        #vpr2{
+            display: none;
+        }
+        
+        #vpr3{
+            display: none;
+        }
+        #vpr4{
+            display: none;
+        }
+        #vpr5{
+            display: none;
+        }
+        #vpr6{
+            display: none;
+        }
+        #vpr7{
+            display: none;
+        }
+        #vpr8{
+            display: none;
+        }
+        #vpr9{
+            display: none;
+        }
+        #vpr10{
+            display: none;
+        }
+        #vpr11{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Password Form -->
+        <form id="password-form">
+            <h1>VNESITE SVOJE ALBANSKO IME</h1>
+            <label for="name">IME:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <button type="submit">Submit</button>
+        </form>
+        
+
+        <!-- Hidden Section -->
+        <div id="hidden-section">
+            <div id="points-display">DENAR: 0</div>
+            <div id="vpr0">
+                <h1>DOBRODOŠLI V IGRO KAKO POSTATI MILIONER!!!</h1>
+                <img src="images/zastavka.jpg" alt="Congratulations" style="width: 1000px;">
+                <hr>    
+                <button onclick="buttonClicked()">NOČEM DENARJA!</button>
+            </div>
+            <div id="vpr1">
+                <img src="images/vpr1.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">356 dni</button>
+                <button onclick="buttonClicked()">355 dni</button>
+                <button onclick="buttonClicked()">POL leta!</button>
+                <button onclick="buttonClicked()">Sploh ne vem kdo je to</button>
+            </div>
+            <div id="vpr2">
+                <img src="images/vpr2.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">THREEHUNDRED</button>
+                <button onclick="buttonClicked()">EJ KAJ SO TA ČASOVNA VPRASANJA</button>
+                <button onclick="buttonClicked()">VOIN DRAKONA se rodi samo enkrat na 100 let. Če upoštevamo letos torej 2025 in začetek kingpin dinsastije na Kitajskem leta 9 po kristusu po formuli (2025-9)/100+e^9-123*sqr(100-2)+10=en mesec z repkom!!!!</button>
+                <button onclick="buttonClicked()">SVIN</button>
+            </div>
+            <div id="vpr3">
+                <img src="images/vpr3.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">petsto molekul</button>
+                <button onclick="buttonClicked()">0</button>
+                <button onclick="buttonClicked()">6,02*10^23*1*(2*6+1*98+55*4)=2*10^26</button>
+                <button onclick="buttonClicked()">isto kot v bolognezu</button>
+            </div>
+            <div id="vpr4">
+                <img src="images/vpr4.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">4</button>
+                <button onclick="buttonClicked()">Jack vorobey</button>
+                <button onclick="buttonClicked()">Ronaldo bloom</button>
+                <button onclick="buttonClicked()">Mister Wronski</button>
+            </div>
+            <div id="vpr5">
+                <img src="images/vpr5.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">Alo kdo daje taka vprašanja</button>
+                <button onclick="buttonClicked()">0 ker je Nataška Portmanova naša!!!</button>
+                <button onclick="buttonClicked()">To so te levaki, sovražam evropo!</button>
+                <button onclick="buttonClicked()">Mislim da je Heyden Kristansen</button>
+            </div>
+            <div id="vpr6">
+                <img src="images/vpr6.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">Dej očkastij, otvali</button>
+                <button onclick="buttonClicked()">Razvoj, in samopoznanje</button>
+                <button onclick="buttonClicked()">Raziskovanje vesolja(Putevka na Mars)</button>
+                <button onclick="buttonClicked()">Aaron Tayler Jonson</button>
+            </div>
+            <div id="vpr7">
+                <img src="images/vpr7.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">Thx Serjoža</button>
+            </div>
+            <div id="vpr8">
+                <img src="images/vpr8.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">Vienna Convention on Consular Relations (1963)</button>
+                <button onclick="buttonClicked()">Customary International Law on Extrajudicial Killings</button>
+                <button onclick="buttonClicked()">Universal Declaration of Human Rights (1948):</button>
+                <button onclick="buttonClicked()">Lokalne zakone Turčije</button>
+            </div>
+            <div id="vpr9">
+                <img src="images/vpr9.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">Ćevabdžinica Hari u Travniku</button>
+                <button onclick="buttonClicked()">Cevabdzinica Zeljo u Sarajevu</button>
+            </div>
+            <div id="vpr10">
+                <img src="images/vpr10.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonClicked()">Ja, zato ker....</button>
+                <button onclick="buttonClicked()">Ne, zato ker....</button>
+            </div>
+            <div id="vpr11">
+                <img src="images/vpr11.png" alt="Congratulations" style="width: 1000px;">
+                <hr>
+                <button onclick="buttonnotClicked()">Porshe Kayen (7922 denarjev)</button>
+                <button onclick="buttonnotClicked()">Kvartira v Vene (7921 denarjev)</button>
+                <button onclick="buttonfinalClicked()">Sekretni pohod(vprasaj sekretnega pohodčika) (7920 denarjev)</button>
+                <button onclick="buttonfinalClicked()"> Pouk petja od Egorja(7919 denarjev)</button>
+
+            </div>
+
+
+            
+
+           
+            
+        </div>
+        
+    <script>
+        var slidecounter=0;
+        var counter = 0;
+        var points=0;
+        var randomString = "Yellow";
+
+        function buttonClicked() {
+            event.preventDefault();
+            points=points + 120*(slidecounter+1);
+            document.getElementById("points-display").innerText = `Points: ${points}`;
+            document.getElementById('vpr'+slidecounter).style.display = 'none';
+            slidecounter++;
+            document.getElementById('vpr'+slidecounter).style.display = 'block';
+        }
+        function buttonnotClicked() {
+            event.preventDefault();
+
+        }
+        function buttonfinalClicked() {
+            event.preventDefault();
+            window.location.href = 'https://www.youtube.com/watch?v=ioE_O7Lm0I4';
+            
+        }
+
+
+        document.getElementById('password-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            if (counter === 5) {
+                randomString = "vflfufcrfh2002.2002.2002";
+                alert("Maximum attempts reached. Try the new password.");
+            }
+
+            const enteredPassword = document.getElementById('password').value;
+            const enteredName = document.getElementById('name').value;
+
+            if (enteredPassword === randomString && enteredName === "Adelina") {
+                // Show success message
+
+
+                // Hide the form and show the hidden section
+                document.getElementById('password-form').style.display = 'none';
+                document.getElementById('hidden-section').style.display = 'block';
+                document.getElementById('vpr0').style.display = 'block';
+
+                counter = 0; // Reset counter on success
+            } else {
+                // Show error message
+                counter++;
+            }
+        });
+    </script>
+</body>
+</html>

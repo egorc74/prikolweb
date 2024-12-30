@@ -1,0 +1,73 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Image styling */
+.center-image {
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Form input styling */
+form {
+    margin-top: 20px;
+}
+
+input[type="password"] {
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+#points-display {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    z-index: 1000;
+}
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
